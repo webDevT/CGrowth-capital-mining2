@@ -9,7 +9,9 @@ $('.close-btn').click(function(){
 
 
 
-});$(".smooth").on("click", "a", function (event) {
+});
+
+$(".smooth").on("click", "a", function (event) {
     event.preventDefault();
     var id = $(this).attr("href"),
       top = $(id).offset().top;
